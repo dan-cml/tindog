@@ -12,7 +12,7 @@ body {
 
 div > div > h1 {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: bold;
     line-height: 1.5;
     color: white;
@@ -23,6 +23,11 @@ div > div > h1 {
 }
 
 /* Features */
+
+#features {
+    background-color: white;
+    position: relative;
+}
 
 #features h3 {
     font-size: 1.4rem;
@@ -97,7 +102,7 @@ h2 {
 
 .navbar-brand {
     font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
@@ -125,12 +130,16 @@ h2 {
 /* Botão de Download */
 
 .botao-download {
-    margin: 5% 3% 5% 0;;
+    margin: 4% 2% 4% 0;;
 }
 
 /* Imagem de Cabeçalho */
 
 .imagem-cabecalho {
-    width: 60%;
+    width: 55%;
     transform: rotate(25deg);
+    position: relative;
+    top: 120px;
+    left: 90px;
+    z-index: 0;
 }
