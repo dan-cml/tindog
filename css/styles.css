@@ -127,6 +127,10 @@ h2 {
     padding: 3% 2%;
 }
 
+#preco h2 {
+    font-size: 2.5rem;
+}
+
 /* Botão de Download */
 
 .botao-download {
@@ -142,4 +146,21 @@ h2 {
     top: 120px;
     left: 90px;
     z-index: 0;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 767px){
+    #features h3 {
+        font-size: 1.7rem;
+        font-weight: bolder;
+    }
+    
+    #features p {
+        font-size: 1.2rem;
+    }
+
+    #features > div {
+        padding: 5% 12%;
+    }
 }
