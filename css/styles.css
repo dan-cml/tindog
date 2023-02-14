@@ -4,17 +4,25 @@
 
 body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 3rem;
 }
 
 #title {
     background-color: #ff4c68;
+    text-align: left;
 }
 
-div > div > h1 {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+#title h1 {
     font-size: 3rem;
-    font-weight: bold;
-    line-height: 1.5;
     color: white;
 }
 
@@ -31,7 +39,6 @@ div > div > h1 {
 
 #features h3 {
     font-size: 1.4rem;
-    font-weight: bolder;
 }
 
 #features p {
@@ -43,7 +50,6 @@ div > div > h1 {
 }
 
 #features > div > div {
-    text-align: center;
     padding: 50px;
 }
 
@@ -61,15 +67,7 @@ div > div > h1 {
 
 #testimonials {
     background-color: #ef8172;
-    text-align: center;
     color: white;
-}
-
-h2 {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 3rem;
-    line-height: 1.5;
 }
 
 #testimonials img {
@@ -84,7 +82,6 @@ h2 {
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -120,7 +117,6 @@ h2 {
 
 #preco {
     padding: 100px;
-    text-align: center;
 }
 
 .preco-column {
@@ -134,7 +130,7 @@ h2 {
 /* Botão de Download */
 
 .botao-download {
-    margin: 4% 2% 4% 0;;
+    margin: 4% 2% 4% 0;
 }
 
 /* Imagem de Cabeçalho */
@@ -149,22 +145,17 @@ h2 {
 }
 
 #cta {
-    text-align: center;
     background-color: #ff4c68;
     padding: 70px;
 }
 
 #cta h3 {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    font-size: 2rem;
-    line-height: 1.5;
+    font-size: 2.5rem;
     color: white;
     padding: 20px;
 }
 
 footer {
-    text-align: center;
     padding: 70px;
 }
 
